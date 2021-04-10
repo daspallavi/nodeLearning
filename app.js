@@ -6,6 +6,10 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // set global configuration values : views, view engine etc
+
+//this is for handlbar
+//app.engine('hbs', expressHbs());
+
 app.set('view engine', 'pug');
 app.set('views', 'views');
 
